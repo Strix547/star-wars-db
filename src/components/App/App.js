@@ -21,23 +21,22 @@ import {
 } from '../pages'
 
 
-
 const App = () => {
   const swapiService = new SwapiService();
   
   return (
     <ErrorBoundry>
       <SwapiServiceProvider value={swapiService}>
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
           <div id="app">
             <Header />
             <RandomPlanet />
             
             <Switch>
-              <Route path="/star-wars-db/" exact render={() => <h2>Welcome to Star Wars DB</h2>} />
-              <Route path="/star-wars-db/people/:id?" exact component={PeoplePage} />
-              <Route path="/star-wars-db/planets/:id?" exact component={PlanetsPage} />
-              <Route path="/star-wars-db/starships/:id?" exact component={StarshipsPage} />
+              <Route path="/" exact render={() => <h2>Welcome to Star Wars DB</h2>} />
+              <Route path="/people/:id?" exact component={PeoplePage} />
+              <Route path="/planets/:id?" exact component={PlanetsPage} />
+              <Route path="/starships/:id?" exact component={StarshipsPage} />
               <Route render={() => <h2>Page is not found</h2>} />
             </Switch>
             
