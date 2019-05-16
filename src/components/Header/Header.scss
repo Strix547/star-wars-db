@@ -1,0 +1,41 @@
+header {
+  display: flex;
+  height: 100px;
+  align-items: center;
+
+  .logo {
+    margin-right: 50px;
+
+    a {
+      font-size: 32px;
+      font-family: "Roboto-Bold";
+    }
+  }
+
+  nav {
+    .menu {
+      display: flex;
+
+      li {
+        margin-right: 30px;
+
+        &:last-child {
+          margin-right: 0;
+        }
+
+        a {
+          font-family: "Roboto-Medium";
+          padding: 10px;
+          border: 2px solid #f2f00a;
+          transition: 0.3s;
+
+          &:hover {
+            color: #000;
+            background-color: #f2f00a;
+            transition: 0.3s;
+          }
+        }
+      }
+    }
+  }
+}

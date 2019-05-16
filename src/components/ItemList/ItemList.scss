@@ -1,0 +1,27 @@
+.item-list {
+  margin-right: 30px;
+  li {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 320px;
+    min-height: 50px;
+    padding: 5px 5px 5px 15px;
+    cursor: pointer;
+    border: 2px solid #f2f00a;
+    transition: 0.3s;
+    margin-bottom: 15px;
+    p:first-child {
+      font-family: "Roboto-Medium";
+    }
+    &:last-child {
+      margin-bottom: 0;
+    }
+    &:hover {
+      color: #000;
+      background-color: #f2f00a;
+      transition: 0.3s;
+    }
+  }
+}

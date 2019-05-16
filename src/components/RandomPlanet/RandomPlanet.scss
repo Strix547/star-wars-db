@@ -1,0 +1,35 @@
+.random-planet {
+  display: flex;
+  border: 2px solid #f2f00a;
+  padding: 15px;
+  & > img {
+    width: 175px;
+    height: 175px;
+    margin-right: 35px;
+  }
+  .desc {
+    h3 {
+      display: inline-block;
+      &:before {
+        content: '';
+        width: 100%;
+        height: 2px;
+        position: absolute;
+        left: 0;
+        bottom: -2px;
+        background-color: #f2f00a;
+      }
+    }
+    ul {
+      li {
+        margin-bottom: 15px;
+        &:first-child {
+          margin-top: 15px;
+        }
+        span:first-of-type {
+          font-family: "Roboto-Medium";
+        }
+      }
+    }
+  }
+}
