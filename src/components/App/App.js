@@ -27,7 +27,7 @@ const App = () => {
   return (
     <ErrorBoundry>
       <SwapiServiceProvider value={swapiService}>
-        <Router basename={process.env.PUBLIC_URL}>
+        <Router basename={process.env.PUBLIC_URL + '/'}>
           <div id="app">
             <Header />
             <RandomPlanet />
