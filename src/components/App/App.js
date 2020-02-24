@@ -18,7 +18,7 @@ import {
   PeoplePage,
   PlanetsPage,
   StarshipsPage
-} from '../pages'
+} from '../../pages'
 
 
 const App = () => {

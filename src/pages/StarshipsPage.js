@@ -5,7 +5,7 @@ import { withRouter } from 'react-router-dom'
 import {
   StarshipList,
   StarshipInfo
-} from '../SwComponents'
+} from '../components/SwComponents'
 
 const StarshipsPage = ({match, history}) => {
 

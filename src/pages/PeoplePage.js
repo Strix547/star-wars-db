@@ -5,7 +5,7 @@ import { withRouter } from 'react-router-dom'
 import {
   PersonList,
   PersonInfo
-} from '../SwComponents'
+} from '../components/SwComponents'
 
 const PeoplePage = ({ history, match }) => {
 

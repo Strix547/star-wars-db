@@ -5,7 +5,7 @@ import { withRouter } from 'react-router-dom'
 import {
   PlanetList,
   PlanetInfo
-} from '../SwComponents'
+} from '../components/SwComponents'
 
 const PlanetsPage = ({ history, match}) => {
 
