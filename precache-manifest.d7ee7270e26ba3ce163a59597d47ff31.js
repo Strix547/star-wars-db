@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/star-wars-db/static/media/Roboto.58bf8e0b.woff"
   },
   {
-    "revision": "cec0e06f4d088af3bc93",
+    "revision": "ad81ef7a4e812eef57d7",
     "url": "/star-wars-db/static/css/main.1cffdc28.chunk.css"
   },
   {
@@ -32,16 +32,16 @@ self.__precacheManifest = [
     "url": "/star-wars-db/static/media/Robotobold.15a913e1.woff2"
   },
   {
-    "revision": "cec0e06f4d088af3bc93",
-    "url": "/star-wars-db/static/js/main.a080f56c.chunk.js"
-  },
-  {
-    "revision": "6422eac71f54ee5cd007dcf46fc0d22d",
-    "url": "/star-wars-db/static/media/Robotomedium.6422eac7.woff"
+    "revision": "ad81ef7a4e812eef57d7",
+    "url": "/star-wars-db/static/js/main.28f9afbb.chunk.js"
   },
   {
     "revision": "611ac98371c2d77c377041e1a0fd87dc",
     "url": "/star-wars-db/static/media/Robotolight.611ac983.woff"
+  },
+  {
+    "revision": "6422eac71f54ee5cd007dcf46fc0d22d",
+    "url": "/star-wars-db/static/media/Robotomedium.6422eac7.woff"
   },
   {
     "revision": "7bf74824d7a8b3c08fe5956f93e9ce2a",
@@ -52,19 +52,19 @@ self.__precacheManifest = [
     "url": "/star-wars-db/static/media/Roboto.c613ca81.ttf"
   },
   {
-    "revision": "38aa81d461c299fa9f0cb27726401996",
-    "url": "/star-wars-db/static/media/Robotomedium.38aa81d4.ttf"
-  },
-  {
     "revision": "63d6f579b0db1fc75cc977a0539ce45f",
     "url": "/star-wars-db/static/media/Robotolight.63d6f579.ttf"
+  },
+  {
+    "revision": "38aa81d461c299fa9f0cb27726401996",
+    "url": "/star-wars-db/static/media/Robotomedium.38aa81d4.ttf"
   },
   {
     "revision": "1fc6a83d1e366dfe7babb690d33ba6fb",
     "url": "/star-wars-db/static/media/Robotobold.1fc6a83d.ttf"
   },
   {
-    "revision": "a7f91cec71c66b72713b5943f5136376",
+    "revision": "70cb07dc623993c43aee516d2a5791fd",
     "url": "/star-wars-db/index.html"
   }
 ];
